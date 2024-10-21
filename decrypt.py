@@ -64,4 +64,4 @@ def decrypt_image(scrambled_image_path, key_image_path, output_image_path):
         print(f"An unexpected error occurred: {e}")
 
 if __name__ == "__main__":
-    decrypt_image("scrambled1.png", "scrambled2.png", "recovered.png")
+    decrypt_image("./Resources/scrambled1.jpeg", "./Resources/scrambled2.jpeg", "./Resources/recovered.jpeg")

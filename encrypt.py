@@ -74,4 +74,4 @@ if __name__ == "__main__":
 
     # Get message to hide from user
     message = input("Enter a message to hide in the image (leave blank for no message): ")
-    encrypt_image("./Resources/input.png", "./Resources/scrambled1.png", "./Resources/scrambled2.png", message)
+    encrypt_image("./Resources/input.jpeg", "./Resources/scrambled1.jpeg", "./Resources/scrambled2.jpeg", message)
